@@ -103,10 +103,7 @@ int main() {
     printf("CADASTRO DA CARTA 2 REALIZADO!\n");
 
 
-
-  // Área para entrada de dados
-
-  // Área para exibição dos dados da cidade
+   //realizado cadastro das cartas nivel novato
 
 return 0;
 } 
