@@ -48,9 +48,26 @@ int main() {
     scanf("%d", &pontos1);
 
 
+    // Saída de dados carta 01
+    printf ("\n Carta 1: \n");
+    printf ("Estado: %s \n", estado1 );
+    printf ("Codigo: %s \n", codigo1);
+    printf ("Cidade: %s \n", cidade1);
+    printf ("Populacao: %f \n", populacao1);
+    printf ("Area: %.2f km²\n", area1);
+    printf ("PIB: %.2f \n", PIB1);
+    printf ("Numeros de pontos turisticos: %i \n", pontost1);
+    printf ("Densidade populacional: %.2f \n", populacao1 / area1);
+    printf ("PIB per capita: %.2f \n", PIB1 / populacao1);
+  
    
     printf("Cadastro da carta 1 realizado \n"); 
 
+    
+    
+    
+    
+    
     
     // --- Carta 2 ---
   
@@ -71,6 +88,9 @@ int main() {
 
     int pontos2;
     
+    float densidadep;
+     
+    float PIBpercapita;
     
 
     // Entrada de dados da Carta 2
@@ -103,7 +123,21 @@ int main() {
     printf("CADASTRO DA CARTA 2 REALIZADO!\n");
 
 
-   //realizado cadastro das cartas nivel novato
+    // Saída de dados carta 02
+    printf ("\n Carta 02:\n");
+    printf ("Estado: %s \n", estado2);
+    printf ("Codigo carta: %s \n", codigo2);
+    printf ("Cidade: %s \n", cidade2);
+    printf ("Populacao: %f \n",populacao2);
+    printf ("Area: %.2f km²\n", area2);
+    printf ("PIB: %.2f \n", PIB2);
+    printf ("Numeros de pontos turisticos: %i \n", pontost2);
+    printf ("Densidade populacional: %.2f \n", populacao2 / area2);
+    printf ("PIB per capita: %.2f \n", PIB2 / populacao2);
+
+
+
+   //realizado cadastro das cartas nivel novato e aventureiro
 
 return 0;
 } 
