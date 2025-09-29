@@ -21,12 +21,7 @@ int main() {
 
     int pontos1;
     
-    float InversoDensidade1;
-
-    float SuperPoderA,SuperPoderB;
-    
-    int resultado1,resultado2,resultado3,resultado4,resultado5,resultado6,resultado7;
-   
+  
    // Entrada de dados da Carta 1
     
     printf("= Cadastro da Carta 1 =\n");
